@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consult Hanish Bagga | Renowned Vedic Astrologer & Astro-Vastu Expert</title>
+  <meta name="description" content="Gain accurate clarity on Career, Marriage, Finances, and Health with Hanish Bagga. 17+ years of experience, 15,000+ students trained, practical Vedic & Lal Kitab remedies.">
+  
+  <!-- Google Fonts: Cormorant Garamond for elegant Vedic luxury & Plus Jakarta Sans for ultra-modern readability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- External CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Starfield Canvas/CSS overlay -->
+  <div class="starfield" aria-hidden="true"></div>
+
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#top" class="brand-logo">
+          <img src="assets/logo.png" alt="Hanish Bagga Logo">
+          <div>
+            <span class="brand-name">Hanish Bagga</span>
+            <span class="brand-sub">Vedic Astrology & Astro-Vastu</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About Hanish</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#benefits" class="nav-link">Benefits</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#faqs" class="nav-link">FAQs</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="tel:+917300004325" class="phone-pill">
+            <i data-lucide="phone" style="width:14px; height:14px;"></i>
+            <span>+91 73000 04325</span>
+          </a>
+          <button class="btn btn-primary" onclick="openBookingModal('General Consultation')">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="top">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left: Headline & Ad Value Props -->
+        <div class="hero-content">
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; margin-bottom: 8px;">
+            <div class="badge">
+              <i data-lucide="sparkles" style="width:14px; height:14px;"></i>
+              <span>Trusted Life Guidance • No Blind Guesswork</span>
+            </div>
+            
+            <!-- Customer Avatars on Start / Hero -->
+            <div class="hero-social-proof">
+              <div class="avatar-stack">
+                <img src="assets/client-rohit.jpg" alt="Client Rohit" class="stack-img">
+                <img src="assets/client-pooja.jpg" alt="Client Pooja" class="stack-img">
+                <img src="assets/client-anand.jpg" alt="Client Anand" class="stack-img">
+              </div>
+              <div class="proof-text">
+                <div class="rating-stars" style="font-size: 0.8rem;">
+                  <i data-lucide="star" style="width:13px; height:13px; fill:#FBBF24;"></i>
+                  <i data-lucide="star" style="width:13px; height:13px; fill:#FBBF24;"></i>
+                  <i data-lucide="star" style="width:13px; height:13px; fill:#FBBF24;"></i>
+                  <i data-lucide="star" style="width:13px; height:13px; fill:#FBBF24;"></i>
+                  <i data-lucide="star" style="width:13px; height:13px; fill:#FBBF24;"></i>
+                </div>
+                <span><strong>25k+</strong> Consultations</span>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="hero-headline">
+            Make Life Decisions With <span class="gradient-text">Astrological Timing</span> & Clarity
+          </h1>
+
+          <p class="hero-desc">
+            Stop navigating career transitions, relationship delays, financial turbulence, or health stress in uncertainty. Consult <strong>Hanish Bagga</strong> for deep Kundli diagnostics and logical, practical remedies designed for real-world results.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg" onclick="openBookingModal('Hero Section Consultation')">
+              <i data-lucide="calendar" style="width:18px; height:18px;"></i>
+              <span>Book Your Consultation Today</span>
+            </button>
+            <a href="#services" class="btn btn-secondary btn-lg">
+              <span>Explore Services</span>
+              <i data-lucide="chevron-down" style="width:18px; height:18px;"></i>
+            </a>
+          </div>
+
+          <div class="hero-usps">
+            <div class="usp-stat">
+              <span class="usp-num">17+ Years</span>
+              <span class="usp-label">Vedic & Lal Kitab Mastery</span>
+            </div>
+            <div class="usp-stat">
+              <span class="usp-num">15,000+</span>
+              <span class="usp-label">Astrology Students Trained</span>
+            </div>
+            <div class="usp-stat">
+              <span class="usp-num">4.9 / 5.0</span>
+              <span class="usp-label">Verified Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Video of Consultation with Client + Trust Overlay -->
+        <div class="hero-visual-card">
+          <div class="hero-video-wrap" id="heroVideoContainer">
+            <!-- Short Video of Hanish Bagga Consulting -->
+            <img 
+              id="heroConsultVideo"
+              class="hero-video-player"
+              src="assets/hanish-consulting-hero.gif" 
+              alt="Hanish Bagga Live Astrology Consultation">
+
+            <!-- Live Session Floating Badge -->
+            <div class="video-live-pill">
+              <span class="pulse-dot"></span>
+              <span>1-on-1 Live Kundli Consultation</span>
+            </div>
+
+            <!-- Video Status Floating Tag -->
+            <div class="video-controls-overlay">
+              <span class="video-quality-tag">
+                <i data-lucide="sparkles" style="width:14px; height:14px;"></i>
+                <span>HD Live Session</span>
+              </span>
+            </div>
+          </div>
+          
+          <div class="hero-badge-float">
+            <div class="hero-float-client-thumb">
+              <img src="assets/client-pooja.jpg" alt="Verified Client" class="t-avatar-img">
+            </div>
+            <div>
+              <div class="rating-stars">
+                <i data-lucide="star" style="width:14px; height:14px; fill:#FBBF24;"></i>
+                <i data-lucide="star" style="width:14px; height:14px; fill:#FBBF24;"></i>
+                <i data-lucide="star" style="width:14px; height:14px; fill:#FBBF24;"></i>
+                <i data-lucide="star" style="width:14px; height:14px; fill:#FBBF24;"></i>
+                <i data-lucide="star" style="width:14px; height:14px; fill:#FBBF24;"></i>
+              </div>
+              <div class="float-text-main">“His chart timing changed my life direction”</div>
+              <div class="float-text-sub">Verified Customer Review • 1-on-1 Consultation</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Consultation Lead Bar (Google Ads Optimization) -->
+      <div class="instant-booking-card" id="quick-book">
+        <h3 style="font-size: 1.5rem; margin-bottom: 6px; color: #FFFFFF;">Need Urgent Astrological Advice?</h3>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;">Fill out your details below to lock your preferred 1-on-1 consultation slot directly with Hanish Bagga.</p>
+        
+        <form id="leadForm" onsubmit="handleFormSubmit(event)">
+          <div class="booking-grid">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" placeholder="e.g. Rajesh Sharma" required name="name">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp</label>
+              <input type="tel" class="form-input" placeholder="+91 98765 43210" required name="phone">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Primary Consultation Area</label>
+              <select class="form-select" required name="service">
+                <option value="Career & Business Astrology">Career & Business Timing</option>
+                <option value="Kundli Analysis (Complete Reading)">Complete Kundli Analysis</option>
+                <option value="Marriage Compatibility & Timing">Marriage & Relationship</option>
+                <option value="Wealth & Financial Astrology">Wealth & Investments</option>
+                <option value="Astro-Vastu Home / Office">Vastu Consultation</option>
+                <option value="Health & Medical Astrology">Health Astrology</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">&nbsp;</label>
+              <button type="submit" class="btn btn-primary" style="height: 48px; width: 100%;">
+                <span>Reserve Slot</span>
+                <i data-lucide="check-circle" style="width:16px; height:16px;"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Hanish Bagga Section -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <div class="about-grid">
+        
+        <div class="about-image-stack">
+          <div class="about-frame">
+            <img src="assets/hanish-about.webp" alt="Hanish Bagga Consulting" onerror="this.src='assets/hanish-hero.webp'">
+          </div>
+          <div class="experience-badge">
+            <div class="exp-years">17+</div>
+            <div class="exp-text">Years of Vedic Excellence</div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="badge">
+            <i data-lucide="compass" style="width:14px; height:14px;"></i>
+            <span>Meet Your Mentor & Consultant</span>
+          </div>
+
+          <h2>Hanish Bagga: Astrologer, Astro-Vastu Expert & Educator</h2>
+
+          <p class="about-desc">
+            With over 17 years in Vedic astrology, Lal Kitab, and Astro-Vastu, Hanish Bagga is celebrated for bridging ancient cosmic science with modern logical understanding. Having spent 18 years in senior corporate leadership prior to dedicated astrological practice, he understands modern career pressures, complex business cycles, and relationship dynamics like few others.
+          </p>
+
+          <div class="credentials-grid">
+            <div class="cred-card">
+              <div class="cred-icon"><i data-lucide="git-merge" style="width:20px; height:20px;"></i></div>
+              <div class="cred-info">
+                <h4>6 Integrated Disciplines</h4>
+                <p>Combines Parashari, Lal Kitab, Astro-Vastu, D9 Navamsa, Nakshatras & Transit cycles for deep accuracy.</p>
+              </div>
+            </div>
+
+            <div class="cred-card">
+              <div class="cred-icon"><i data-lucide="briefcase" style="width:20px; height:20px;"></i></div>
+              <div class="cred-info">
+                <h4>Corporate Acumen</h4>
+                <p>18 years of executive corporate experience brings structured, strategic thinking to your consultations.</p>
+              </div>
+            </div>
+
+            <div class="cred-card">
+              <div class="cred-icon"><i data-lucide="graduation-cap" style="width:20px; height:20px;"></i></div>
+              <div class="cred-info">
+                <h4>Master Educator</h4>
+                <p>Mentored 15,000+ astrology students and practitioners across India, US, UK, UAE, and Canada.</p>
+              </div>
+            </div>
+
+            <div class="cred-card">
+              <div class="cred-icon"><i data-lucide="check-shield" style="width:20px; height:20px;"></i></div>
+              <div class="cred-info">
+                <h4>No Superstition or Fear</h4>
+                <p>Logic-backed explanations and simple, affordable remedies without fear-inducing fatalism.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="openBookingModal('About Section Consultation')">
+            <i data-lucide="calendar" style="width:16px; height:16px;"></i>
+            <span>Schedule A Personal Session with Hanish</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Astrology Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">
+          <i data-lucide="layers" style="width:14px; height:14px;"></i>
+          <span>Tailored Consultations</span>
+        </div>
+        <h2 class="section-title">Specialized Astrology Consultations</h2>
+        <p class="section-subtitle">
+          Every consultation begins with a pre-analyzed study of your birth chart, Dasha cycles, and planetary transits to answer your most pressing life decisions.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- 1. Career Astrology -->
+        <div class="service-card">
+          <div>
+            <div class="service-media-thumb">
+              <img src="assets/hanish-career-foreign.gif" alt="Hanish Bagga Career & Global Guidance Session" loading="lazy">
+              <span class="media-badge">Consultation Focus</span>
+            </div>
+            <div class="service-head">
+              <div class="service-icon-box">
+                <i data-lucide="trending-up" style="width:24px; height:24px;"></i>
+              </div>
+              <h3 class="service-title">Career Astrology</h3>
+            </div>
+            <p class="service-desc">
+              Understand the exact cosmic timing for job changes, promotions, international assignments, and leadership leaps. Know when to push aggressively and when to consolidate.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">Job Switch Timing</span>
+              <span class="service-tag">Promotion Windows</span>
+              <span class="service-tag">Corporate Politics</span>
+              <span class="service-tag">Foreign Relocation</span>
+            </div>
+          </div>
+          <div class="service-action">
+            <span style="font-size: 0.85rem; color: #DDD6FE;">1-on-1 Audio/Video Call</span>
+            <a href="javascript:void(0)" onclick="openBookingModal('Career Astrology')" class="service-btn">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Business Astrology -->
+        <div class="service-card">
+          <div>
+            <div class="service-media-thumb">
+              <img src="assets/hanish-business-finance.gif" alt="Hanish Bagga Business & Wealth Timing Consultation" loading="lazy">
+              <span class="media-badge">Executive Advisory</span>
+            </div>
+            <div class="service-head">
+              <div class="service-icon-box">
+                <i data-lucide="briefcase" style="width:24px; height:24px;"></i>
+              </div>
+              <h3 class="service-title">Business Astrology</h3>
+            </div>
+            <p class="service-desc">
+              Make smart venture decisions. Assess partner chart compatibility, new product launch dates, capital expansion cycles, and risk mitigation before putting money on the line.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">Partner Compatibility</span>
+              <span class="service-tag">Capital Investments</span>
+              <span class="service-tag">Launch Shubh Muhurat</span>
+              <span class="service-tag">Risk Assessment</span>
+            </div>
+          </div>
+          <div class="service-action">
+            <span style="font-size: 0.85rem; color: #DDD6FE;">Founder & Strategic Insight</span>
+            <a href="javascript:void(0)" onclick="openBookingModal('Business Astrology')" class="service-btn">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Marriage & Compatibility -->
+        <div class="service-card">
+          <div>
+            <div class="service-media-thumb">
+              <img src="assets/hanish-relationship-guidance.gif" alt="Hanish Bagga Marriage & Compatibility Consultation" loading="lazy">
+              <span class="media-badge">Relationship Clarity</span>
+            </div>
+            <div class="service-head">
+              <div class="service-icon-box">
+                <i data-lucide="heart" style="width:24px; height:24px;"></i>
+              </div>
+              <h3 class="service-title">Marriage Compatibility</h3>
+            </div>
+            <p class="service-desc">
+              Go far deeper than basic Guna Milan. Analyze emotional alignment, longevity, financial stability together, Manglik Dosha solutions, and resolving marital friction with remedies.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">In-depth Kundli Milan</span>
+              <span class="service-tag">Marriage Delay Causes</span>
+              <span class="service-tag">Marital Harmony</span>
+              <span class="service-tag">Mangal Dosh Upay</span>
+            </div>
+          </div>
+          <div class="service-action">
+            <span style="font-size: 0.85rem; color: #DDD6FE;">Dual-Chart Analysis</span>
+            <a href="javascript:void(0)" onclick="openBookingModal('Marriage Compatibility')" class="service-btn">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Kundli Analysis (Full Reading) -->
+        <div class="service-card">
+          <div>
+            <div class="service-media-thumb">
+              <img src="assets/hanish-kundli-analysis.gif" alt="Hanish Bagga Detailed Kundli Analysis Session" loading="lazy">
+              <span class="media-badge">Complete 360° Audit</span>
+            </div>
+            <div class="service-head">
+              <div class="service-icon-box">
+                <i data-lucide="sun" style="width:24px; height:24px;"></i>
+              </div>
+              <h3 class="service-title">Complete Kundli Analysis</h3>
+            </div>
+            <p class="service-desc">
+              A comprehensive 360° life audit covering all 12 houses: health, career, relationships, children, wealth accumulation, and karmic life path with actionable remedies.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">360° Life Reading</span>
+              <span class="service-tag">Dasha & Transit Map</span>
+              <span class="service-tag">Lal Kitab Upay</span>
+              <span class="service-tag">Gemstone Guidance</span>
+            </div>
+          </div>
+          <div class="service-action">
+            <span style="font-size: 0.85rem; color: #DDD6FE;">Most Comprehensive</span>
+            <a href="javascript:void(0)" onclick="openBookingModal('Complete Kundli Analysis')" class="service-btn">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Wealth & Financial Astrology -->
+        <div class="service-card">
+          <div>
+            <div class="service-media-thumb">
+              <img src="assets/hanish-business-finance.gif" alt="Hanish Bagga Wealth and Financial Astrological Consultation" loading="lazy">
+              <span class="media-badge">Wealth Architecture</span>
+            </div>
+            <div class="service-head">
+              <div class="service-icon-box">
+                <i data-lucide="coins" style="width:24px; height:24px;"></i>
+              </div>
+              <h3 class="service-title">Wealth & Finance Astrology</h3>
+            </div>
+            <p class="service-desc">
+              Uncover blocked wealth channels, debt cycles, property acquisition timings, inheritance prospects, and safe asset allocation periods according to your 2nd and 11th houses.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">Debt Relief Remedies</span>
+              <span class="service-tag">Asset Purchase Timelines</span>
+              <span class="service-tag">Stock / Investment Luck</span>
+              <span class="service-tag">Property Buying</span>
+            </div>
+          </div>
+          <div class="service-action">
+            <span style="font-size: 0.85rem; color: #DDD6FE;">Financial Clarity</span>
+            <a href="javascript:void(0)" onclick="openBookingModal('Wealth & Finance Astrology')" class="service-btn">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Astro-Vastu Consultation -->
+        <div class="service-card">
+          <div>
+            <div class="service-media-thumb">
+              <img src="assets/hanish-consulting-hero.gif" alt="Hanish Bagga Astro-Vastu Space Optimization" loading="lazy">
+              <span class="media-badge">Spatial Energy Sync</span>
+            </div>
+            <div class="service-head">
+              <div class="service-icon-box">
+                <i data-lucide="home" style="width:24px; height:24px;"></i>
+              </div>
+              <h3 class="service-title">Astro-Vastu (Home & Office)</h3>
+            </div>
+            <p class="service-desc">
+              Synchronize your home and office floor plans with the horoscope of key residents. 95% non-demolition remedies using elemental balance, colors, and spatial energy re-alignment.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">No Demolition Needed</span>
+              <span class="service-tag">Home & Commercial</span>
+              <span class="service-tag">Chart + Floorplan Sync</span>
+              <span class="service-tag">Energy Harmonization</span>
+            </div>
+          </div>
+          <div class="service-action">
+            <span style="font-size: 0.85rem; color: #DDD6FE;">Floorplan Analysis</span>
+            <a href="javascript:void(0)" onclick="openBookingModal('Astro-Vastu Consultation')" class="service-btn">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <button class="btn btn-primary btn-lg" onclick="openBookingModal('Services Section Bottom')">
+          <i data-lucide="phone-call" style="width:18px; height:18px;"></i>
+          <span>Not Sure Which Consultation Fits? Talk To Us</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Consultation Benefits Section -->
+  <section class="section section-alt" id="benefits">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">
+          <i data-lucide="check-circle" style="width:14px; height:14px;"></i>
+          <span>The Hanish Bagga Advantage</span>
+        </div>
+        <h2 class="section-title">What You Receive in Your Consultation</h2>
+        <p class="section-subtitle">
+          Experience a structured, private consultation backed by chart preparation before you even hop on the call.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="service-media-thumb">
+            <img src="assets/benefit-kundli-chart.jpg" alt="Pre-Session Natal Chart Preparation" loading="lazy">
+            <span class="media-badge">Birth Chart Audit</span>
+          </div>
+          <div class="benefit-number">01</div>
+          <h3 class="benefit-title">Pre-Session Chart Preparation</h3>
+          <p class="benefit-desc">
+            Your birth chart (Kundli), Nakshatras, Dasha transitions, and Navamsa (D9) are thoroughly calculated and studied before the call begins so that your session time is dedicated 100% to solutions.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="service-media-thumb">
+            <img src="assets/benefit-zodiac-wheel.jpg" alt="Logical Reason Behind Every Point" loading="lazy">
+            <span class="media-badge">Logic-First Science</span>
+          </div>
+          <div class="benefit-number">02</div>
+          <h3 class="benefit-title">Logical Reason Behind Every Point</h3>
+          <p class="benefit-desc">
+            You won’t receive vague mystical statements. Every observation is clearly explained with astrological principles, so you understand exactly <em>why</em> a certain phase is unfolding.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="service-media-thumb">
+            <img src="assets/benefit-compass-vastu.jpg" alt="Practical Doable Lal Kitab & Vastu Remedies" loading="lazy">
+            <span class="media-badge">Practical Upay</span>
+          </div>
+          <div class="benefit-number">03</div>
+          <h3 class="benefit-title">Practical, Doable Remedies</h3>
+          <p class="benefit-desc">
+            Receive simple, ethical Lal Kitab and Vedic remedies that fit smoothly into modern urban routines. No exorbitantly priced rituals, unnecessary fear, or cumbersome demands.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="service-media-thumb">
+            <img src="assets/benefit-cosmic-spiral.jpg" alt="Confidential & Non-Judgmental Astrology" loading="lazy">
+            <span class="media-badge">100% Confidential</span>
+          </div>
+          <div class="benefit-number">04</div>
+          <h3 class="benefit-title">100% Confidential & Non-Judgmental</h3>
+          <p class="benefit-desc">
+            Whether discussing sensitive family challenges, legal battles, corporate hurdles, or personal doubts, every conversation is treated with absolute ethical privacy.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="service-media-thumb">
+            <img src="assets/benefit-astronomical-clock.jpg" alt="Precise Timing Windows and Shubh Muhurat" loading="lazy">
+            <span class="media-badge">Planetary Timing</span>
+          </div>
+          <div class="benefit-number">05</div>
+          <h3 class="benefit-title">Precise Timing Windows</h3>
+          <p class="benefit-desc">
+            Gain clear timelines: know exactly in which month of what year planetary doors open for investments, marital alliances, job changes, or health rejuvenation.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="service-media-thumb">
+            <img src="assets/benefit-global-access.jpg" alt="Global Astrological Guidance Access" loading="lazy">
+            <span class="media-badge">Global Video Access</span>
+          </div>
+          <div class="benefit-number">06</div>
+          <h3 class="benefit-title">Global Access via Audio / Video</h3>
+          <p class="benefit-desc">
+            Consult seamlessly whether you are based in India, US, UK, Australia, Dubai, or Singapore. Clear audio/video links and post-consultation remedy summaries provided.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consultation Process Section -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">
+          <i data-lucide="git-commit" style="width:14px; height:14px;"></i>
+          <span>Transparent 4-Step Journey</span>
+        </div>
+        <h2 class="section-title">How To Book Your Consultation</h2>
+        <p class="section-subtitle">
+          Getting life-changing astrological clarity is straightforward, fast, and organized.
+        </p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step">
+          <div class="step-badge">1</div>
+          <h3 class="step-title">Share Birth Details</h3>
+          <p class="step-desc">
+            Provide your exact Date of Birth, Time of Birth, and Place of Birth, along with your primary queries or life concerns.
+          </p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-badge">2</div>
+          <h3 class="step-title">Select Service & Slot</h3>
+          <p class="step-desc">
+            Choose your focus area (Career, Marriage, Kundli, Vastu, etc.) and pick a convenient consultation appointment slot.
+          </p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-badge">3</div>
+          <h3 class="step-title">Chart Analysis</h3>
+          <p class="step-desc">
+            Hanish Bagga personally calculates your planetary positions, divisional charts (D9/D10), and running Dasha cycles prior to the meeting.
+          </p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-badge">4</div>
+          <h3 class="step-title">1-on-1 Guidance & Upay</h3>
+          <p class="step-desc">
+            Join the private session, ask all your questions, understand the cosmic patterns, and receive practical remedy instructions.
+          </p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <button class="btn btn-primary btn-lg" onclick="openBookingModal('Process Step CTA')">
+          <span>Start Step 1: Submit Your Details</span>
+          <i data-lucide="arrow-right" style="width:16px; height:16px;"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials & Trust Signals Section -->
+  <section class="section section-alt" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">
+          <i data-lucide="heart-handshake" style="width:14px; height:14px;"></i>
+          <span>Verified Client Experiences</span>
+        </div>
+        <h2 class="section-title">What Clients Say About Hanish Bagga</h2>
+        <p class="section-subtitle">
+          Real feedback from individuals, professionals, and families who found direction in their darkest moments.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Review 1 -->
+        <div class="testimonial-card">
+          <div>
+            <!-- Media Banner (Matches Specialized Astrology Consultations) -->
+            <div class="service-media-thumb">
+              <img src="assets/client-rohit.jpg" alt="Rohit Sharma - Verified Client" loading="lazy">
+              <span class="media-badge">Verified Career Client</span>
+            </div>
+            <div class="t-stars">
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+            </div>
+            <p class="t-quote">
+              “I booked the consultation with Hanish Bagga for career uncertainty. He listened to all my queries very patiently and created my Kundli accurately. First, he verified his predictive model with past events which blew my mind. The career remedies he suggested were simple and worked within 3 months.”
+            </p>
+          </div>
+          <div class="t-author">
+            <div class="t-avatar">
+              <img src="assets/client-rohit.jpg" alt="Rohit Sharma" class="t-avatar-img">
+            </div>
+            <div>
+              <div class="t-name">Rohit Sharma</div>
+              <div class="t-meta">IT Vice President, Gurgaon • Career Consultation</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-card">
+          <div>
+            <!-- Media Banner (Matches Specialized Astrology Consultations) -->
+            <div class="service-media-thumb">
+              <img src="assets/client-pooja.jpg" alt="Pooja Kapoor - Verified Client" loading="lazy">
+              <span class="media-badge">Verified Marriage & Vastu Client</span>
+            </div>
+            <div class="t-stars">
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+            </div>
+            <p class="t-quote">
+              “The consultation was a truly worthwhile experience. It was so reassuring to discuss marriage delays freely and receive personalized guidance without any fear-mongering. The Astro-Vastu adjustments for our bedroom completely relieved our persistent anxiety.”
+            </p>
+          </div>
+          <div class="t-author">
+            <div class="t-avatar">
+              <img src="assets/client-pooja.jpg" alt="Pooja Kapoor" class="t-avatar-img">
+            </div>
+            <div>
+              <div class="t-name">Pooja Kapoor</div>
+              <div class="t-meta">Chartered Accountant, Mumbai • Marriage & Vastu</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-card">
+          <div>
+            <!-- Media Banner (Matches Specialized Astrology Consultations) -->
+            <div class="service-media-thumb">
+              <img src="assets/client-anand.jpg" alt="Anand Mehta - Verified Client" loading="lazy">
+              <span class="media-badge">Verified Business Client</span>
+            </div>
+            <div class="t-stars">
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+              <i data-lucide="star" style="width:18px; height:18px; fill:#FBBF24;"></i>
+            </div>
+            <p class="t-quote">
+              “The way Lal Kitab ke Upay are explained with logic is what makes Hanish Sir stand out completely. I used to be terrified of Rahu and Saturn transit cycles. His scientific rationale and timing advice helped my startup survive its cash-crunch period.”
+            </p>
+          </div>
+          <div class="t-author">
+            <div class="t-avatar">
+              <img src="assets/client-anand.jpg" alt="Anand Mehta" class="t-avatar-img">
+            </div>
+            <div>
+              <div class="t-name">Anand Mehta</div>
+              <div class="t-meta">Business Owner, Bangalore • Business Astrology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Secondary Section: Astrology Courses & Academy -->
+  <section class="section" id="courses">
+    <div class="container">
+      <div class="courses-strip">
+        <div class="courses-header-split">
+          <div>
+            <span class="course-tag">Learn Ancient Wisdom Directly</span>
+            <h3 style="font-size: 2rem; color: #FFFFFF; margin-top: 6px;">Master Vedic Astrology with Hanish Bagga</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; max-width: 580px;">
+              Looking to decode birth charts yourself? Join 15,000+ students in structured, logic-first astrology courses designed for beginners to advanced consultants.
+            </p>
+          </div>
+          <div>
+            <a href="https://hanishbagga.com/courses" target="_blank" class="btn btn-secondary">
+              <span>View All Courses</span>
+              <i data-lucide="external-link" style="width:16px; height:16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Course 1 -->
+          <div class="course-mini-card">
+            <div class="service-media-thumb" style="height: 150px;">
+              <img src="assets/course-navamsha-karma.jpg" alt="Secrets of Navamsa D9 Chart Course" loading="lazy">
+              <span class="media-badge">Navamsha D9</span>
+            </div>
+            <span class="course-tag">Advanced Predictive</span>
+            <h4 class="course-name">Secrets of Navamsa (D9)</h4>
+            <p class="course-detail">Decode marriage destiny, soul purpose, and hidden planetary strengths using the vital D9 divisional chart.</p>
+            <span style="font-size: 0.8rem; color: #A78BFA; font-weight: 600;">Certification Course</span>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course-mini-card">
+            <div class="service-media-thumb" style="height: 150px;">
+              <img src="assets/course-d9-blueprint.jpg" alt="D9 Navamsha Blueprint & Destiny Course" loading="lazy">
+              <span class="media-badge">Astro Blueprint</span>
+            </div>
+            <span class="course-tag">Energy & Spatial</span>
+            <h4 class="course-name">Vedic Astro-Vastu</h4>
+            <p class="course-detail">Learn how to analyze floor plans with personal horoscopes and apply zero-demolition energy remedies.</p>
+            <span style="font-size: 0.8rem; color: #A78BFA; font-weight: 600;">Practical Framework</span>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course-mini-card">
+            <div class="service-media-thumb" style="height: 150px;">
+              <img src="assets/course-navamsha-mastery.jpg" alt="Medical and Advanced Prediction Course" loading="lazy">
+              <span class="media-badge">Mastery Course</span>
+            </div>
+            <span class="course-tag">Healthcare & Well-being</span>
+            <h4 class="course-name">Medical Astrology</h4>
+            <p class="course-detail">Identify vulnerable organ systems, sensitive planetary periods, and preventive health insights from natal charts.</p>
+            <span style="font-size: 0.8rem; color: #A78BFA; font-weight: 600;">Diagnostic System</span>
+          </div>
+
+          <!-- Course 4 -->
+          <div class="course-mini-card">
+            <div class="service-media-thumb" style="height: 150px;">
+              <img src="assets/course-lagna-navamsa.jpg" alt="Lal Kitab and Lagna Navamsa Prediction Masterclass" loading="lazy">
+              <span class="media-badge">Lagna & D9 Sync</span>
+            </div>
+            <span class="course-tag">Foundation to Mastery</span>
+            <h4 class="course-name">Lal Kitab & Prediction</h4>
+            <p class="course-detail">Demystify blank chart readings, planetary aspects, and the precise logical science of Lal Kitab remedies.</p>
+            <span style="font-size: 0.8rem; color: #A78BFA; font-weight: 600;">Signature Masterclass</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frequently Asked Questions Section -->
+  <section class="section section-alt" id="faqs">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">
+          <i data-lucide="help-circle" style="width:14px; height:14px;"></i>
+          <span>Clear Answers</span>
+        </div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">
+          Everything you need to know about booking, requirements, and consultation confidentiality.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <!-- FAQ 1 -->
+        <div class="faq-item active">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What exact details do I need to provide for a consultation?</span>
+            <i data-lucide="chevron-down" class="faq-toggle-icon" style="width:20px; height:20px;"></i>
+          </div>
+          <div class="faq-answer">
+            To prepare an accurate birth chart (Kundli), we require three details: your <strong>Date of Birth</strong>, <strong>Exact Time of Birth</strong>, and <strong>City/Place of Birth</strong>. If you are booking for marriage compatibility, please provide details for both individuals.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What if I don't know my exact birth time?</span>
+            <i data-lucide="chevron-down" class="faq-toggle-icon" style="width:20px; height:20px;"></i>
+          </div>
+          <div class="faq-answer">
+            If your birth time is approximate (within a 15–30 minute range), Hanish Bagga conducts birth-time rectification by verifying significant past life events (education, marriage, career shifts, major milestones) before delivering future predictions.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How does an online consultation work? Is it as effective as in-person?</span>
+            <i data-lucide="chevron-down" class="faq-toggle-icon" style="width:20px; height:20px;"></i>
+          </div>
+          <div class="faq-answer">
+            Yes, completely! Astrological readings rely on mathematical planetary coordinates, not physical touch. Online consultations take place over private Zoom, Google Meet, or direct phone calls, allowing clients from across the globe to receive the same in-depth attention and recorded remedy summaries.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Will I be advised to perform expensive rituals or wear costly gems?</span>
+            <i data-lucide="chevron-down" class="faq-toggle-icon" style="width:20px; height:20px;"></i>
+          </div>
+          <div class="faq-answer">
+            No. Hanish Bagga strongly believes in logic-driven, affordable, and practical remedies (Lal Kitab Upay, dietary adjustments, habitual timing alignments, and spatial energy rebalancing). No fear tactics or forced ritual expenditure are ever practiced.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Is my consultation strictly confidential?</span>
+            <i data-lucide="chevron-down" class="faq-toggle-icon" style="width:20px; height:20px;"></i>
+          </div>
+          <div class="faq-answer">
+            100% confidential. Your birth charts, discussion notes, questions, and personal matters are never shared or published under any circumstance.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final High-Converting CTA Banner -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="badge" style="margin-bottom: 8px;">
+          <i data-lucide="clock" style="width:14px; height:14px;"></i>
+          <span>Slots Reserved on First-Come Basis</span>
+        </div>
+        
+        <h2 class="cta-title">Ready To Gain Clarity on Your Future?</h2>
+        
+        <p class="cta-desc">
+          Don’t let crucial career milestones, relationships, or financial decisions stay shrouded in doubt. Get personalized Vedic guidance and time-tested remedies today.
+        </p>
+
+        <div class="cta-buttons">
+          <button class="btn btn-primary btn-lg" onclick="openBookingModal('Final CTA Banner')">
+            <i data-lucide="calendar" style="width:20px; height:20px;"></i>
+            <span>Book Your Personal Consultation Now</span>
+          </button>
+          
+          <a href="tel:+917300004325" class="btn btn-secondary btn-lg">
+            <i data-lucide="phone-call" style="width:18px; height:18px;"></i>
+            <span>Call +91 73000 04325</span>
+          </a>
+        </div>
+
+        <div class="cta-guarantee">
+          <span><i data-lucide="check" style="width:16px; height:16px; color:#38BDF8;"></i> 100% Confidential</span>
+          <span><i data-lucide="check" style="width:16px; height:16px; color:#38BDF8;"></i> Pre-calculated Chart Analysis</span>
+          <span><i data-lucide="check" style="width:16px; height:16px; color:#38BDF8;"></i> Practical Lal Kitab Upay</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Booking Modal Dialog -->
+  <div class="modal-overlay" id="bookingModal" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-dialog">
+      <button class="modal-close" onclick="closeBookingModal()">
+        <i data-lucide="x" style="width:18px; height:18px;"></i>
+      </button>
+
+      <div style="margin-bottom: 22px;">
+        <span class="badge" style="margin-bottom: 8px;">
+          <i data-lucide="sparkles" style="width:12px; height:12px;"></i>
+          <span>Direct Session with Hanish Bagga</span>
+        </span>
+        <h3 style="font-size: 1.85rem; color: #FFFFFF;" id="modalTitle">Book A Consultation</h3>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 4px;">
+          Enter your birth and contact details. Our team will coordinate your confirmed appointment slot immediately.
+        </p>
+      </div>
+
+      <form id="modalForm" onsubmit="handleModalSubmit(event)">
+        <input type="hidden" id="selectedServiceSource" name="source" value="Website Lead">
+
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" placeholder="Your Full Name" required name="fullName">
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp *</label>
+              <input type="tel" class="form-input" placeholder="+91 98765 43210" required name="phone">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" class="form-input" placeholder="name@email.com" required name="email">
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+            <div class="form-group">
+              <label class="form-label">Date of Birth *</label>
+              <input type="date" class="form-input" required name="dob">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Time of Birth *</label>
+              <input type="time" class="form-input" required name="tob">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Place of Birth (City, State, Country) *</label>
+            <input type="text" class="form-input" placeholder="e.g. New Delhi, India" required name="pob">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Consultation Focus</label>
+            <select class="form-select" id="modalServiceSelect" name="service">
+              <option value="Career & Job Timing">Career & Job Timing</option>
+              <option value="Marriage Compatibility">Marriage & Compatibility</option>
+              <option value="Complete Kundli Analysis">Complete Kundli Analysis (Comprehensive)</option>
+              <option value="Business Astrology">Business & Startup Timing</option>
+              <option value="Wealth & Finance Astrology">Wealth & Investments</option>
+              <option value="Astro-Vastu Consultation">Astro-Vastu (Home / Office)</option>
+              <option value="Health Astrology">Health Sensitivity & Remedies</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Primary Question or Concern (Optional)</label>
+            <textarea class="form-input" rows="3" placeholder="Briefly describe what you'd like clarity on..." name="notes"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="margin-top: 8px; width: 100%;">
+            <span>Confirm & Request Slot</span>
+            <i data-lucide="arrow-right" style="width:18px; height:18px;"></i>
+          </button>
+
+          <p style="text-align: center; font-size: 0.75rem; color: var(--text-subtle);">
+            🔒 Strict Client Confidentiality Guaranteed. No spam.
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 10px;">
+            <img src="assets/logo.png" alt="Hanish Bagga" style="height: 38px;">
+            <div>
+              <span class="brand-name">Hanish Bagga</span>
+              <span class="brand-sub">Astrology & Vastu Consultant</span>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); max-width: 420px;">
+            Empowering individuals and business leaders with cosmic timing, Kundli diagnostics, and practical Lal Kitab remedies for over 17 years.
+          </p>
+        </div>
+
+        <div>
+          <h5 style="color: #FFFFFF; font-size: 0.95rem; margin-bottom: 12px; font-family: var(--font-sans);">Direct Contact</h5>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.85rem;">
+            <a href="tel:+917300004325" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+              <i data-lucide="phone" style="width:14px; height:14px; color: var(--accent-glow);"></i>
+              +91 73000 04325
+            </a>
+            <a href="mailto:contact@hanishbagga.com" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+              <i data-lucide="mail" style="width:14px; height:14px; color: var(--accent-glow);"></i>
+              contact@hanishbagga.com
+            </a>
+            <div style="color: var(--text-muted); display: flex; align-items: center; gap: 8px;">
+              <i data-lucide="map-pin" style="width:14px; height:14px; color: var(--accent-glow);"></i>
+              Indirapuram, Ghaziabad, UP, India
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Hanish Bagga. All Rights Reserved. Professional Astrology & Astro-Vastu Consultation.
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="https://hanishbagga.com/terms-and-conditions" target="_blank" style="color: var(--text-subtle); text-decoration: none;">Terms & Privacy</a>
+          <a href="https://hanishbagga.com/services" target="_blank" style="color: var(--text-subtle); text-decoration: none;">All Services</a>
+          <a href="https://hanishbagga.com/courses" target="_blank" style="color: var(--text-subtle); text-decoration: none;">Courses</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
